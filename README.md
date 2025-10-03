@@ -77,3 +77,47 @@ The **empty set** (also called the null set) is the set that contains **no eleme
   - `∅` has no elements.  
   - `{∅}` has one element (the empty set itself).  
 ---
+### Summary
+## Definition of a Subset
+
+A set `A` is a **subset** of a set `B` if **every element of A is also an element of B**.  
+
+Notation: `A ⊆ B`  
+
+- This means: `∀x (x ∈ A ⟹ x ∈ B)`  
+- If `A ⊆ B` and `A ≠ B`, then `A` is a **proper subset** of `B`.  
+
+---
+
+### Key Points
+
+- Every set is a subset of itself: `A ⊆ A`  
+- The empty set is a subset of every set: `∅ ⊆ A`  
+- If `A ⊆ B` and `B ⊆ A`, then `A = B`  
+
+---
+
+### Examples
+
+- `A = {1,2}` , `B = {1,2,3}` → `A ⊆ B` ✅  
+- `A = {1,4}` , `B = {1,2,3}` → `A ⊆ B` ❌ (4 ∉ B)  
+- `∅ ⊆ {1,2,3}` ✅  
+
+---
+
+### Visual Intuition
+
+Think of sets as circles:
+
+ ┌───────────┐
+ │     B     │
+ │  ┌─────┐  │
+ │  │  A  │  │
+ │  └─────┘  │
+ └───────────┘
+---
+
+Here, `A` is completely inside `B`, so `A ⊆ B`.  
+
+If `A` is smaller but entirely inside `B`, then `A` is a **proper subset** of `B`.  
+
