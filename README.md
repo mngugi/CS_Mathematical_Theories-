@@ -50,3 +50,30 @@ Two sets A and B are equal if:
 - `{1,2,3} = {1,1,2,3,3}` ✅ (duplicates ignored)  
 - `{1,2,3} ≠ {1,2,4}` ❌ (different contents)  
 
+---
+## Definition of the Empty Set
+
+The **empty set** (also called the null set) is the set that contains **no elements**.  
+
+- It is denoted by the symbol `∅` or by `{ }`.  
+- By definition: `∀x (x ∉ ∅)` — no element belongs to the empty set.  
+
+---
+
+### Key Points
+
+- `∅` has **zero elements**.  
+- `∅` is a subset of **every set**.  
+- The empty set is **unique** (there is only one).  
+
+---
+
+### Examples
+
+- `A = { } = ∅`  
+- `B = {1, 2, 3}`  
+  - Here, `∅ ⊆ B` (empty set is a subset of B).  
+- But: `∅ ≠ {∅}`  
+  - `∅` has no elements.  
+  - `{∅}` has one element (the empty set itself).  
+---
