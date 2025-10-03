@@ -109,12 +109,14 @@ Notation: `A ⊆ B`
 
 Think of sets as circles:
 
- ┌───────────┐
- │     B     │
- │  ┌─────┐  │
- │  │  A  │  │
- │  └─────┘  │
- └───────────┘
+```markdown
+     ┌───────────┐
+     │     B     │
+     │  ┌─────┐  │
+     │  │  A  │  │
+     │  └─────┘  │
+     └───────────┘
+
 ---
 
 Here, `A` is completely inside `B`, so `A ⊆ B`.  
