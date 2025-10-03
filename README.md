@@ -121,5 +121,51 @@ Think of sets as circles:
 
 Here, `A` is completely inside `B`, so `A ⊆ B`.  
 
-If `A` is smaller but entirely inside `B`, then `A` is a **proper subset** of `B`.  
+If `A` is smaller but entirely inside `B`, then `A` is a **proper subset** of `B`.
+
+---
+## Definition of Membership
+
+If an object `x` belongs to a set `A`, we say `x` is a **member** (or **element**) of `A`.  
+
+Notation:  
+- `x ∈ A` means *x is an element of A*  
+- `x ∉ A` means *x is not an element of A*  
+
+---
+
+### Key Points
+
+- Membership checks **whether an element is inside a set**.  
+- Membership is about **elements**, not subsets.  
+
+---
+
+### Examples
+
+- If `A = {1, 2, 3}`:  
+  - `2 ∈ A` ✅ (2 is in the set)  
+  - `4 ∉ A` ❌ (4 is not in the set)  
+
+- If `B = {a, b, c}`:  
+  - `a ∈ B` ✅  
+  - `d ∉ B` ❌  
+
+---
+
+### Visual Intuition
+
+```markdown
+Set A = {1, 2, 3}
+
+   ┌─────────────┐
+   │  ●  ●  ●    │
+   │ 1  2  3     │
+   └─────────────┘
+
+Here:
+- 2 ∈ A  (2 is inside the circle)  
+- 4 ∉ A  (4 is outside the circle)  
+---
+
 
