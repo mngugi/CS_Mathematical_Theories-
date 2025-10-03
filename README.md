@@ -124,6 +124,8 @@ Here, `A` is completely inside `B`, so `A ⊆ B`.
 If `A` is smaller but entirely inside `B`, then `A` is a **proper subset** of `B`.
 
 ---
+
+
 ## Definition of Membership
 
 If an object `x` belongs to a set `A`, we say `x` is a **member** (or **element**) of `A`.  
