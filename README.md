@@ -1,11 +1,27 @@
-# Computer Science Mathematical Theory
-## Introduction
+Computer Science Mathematical Theory
+Introduction
+1.0 Set Theory
 
-### 1.0 Set Theory
+A set is an unordered collection of discrete objects (called elements or members).
 
-A set is an unordered collection of dicrete objects. 
-A set notation is a curly braces {} with commas {, , , , } separating out the elements.
-For example a set of Nutural numbbers A = {0,1,3,6,9}
+Set notation uses curly braces {}
+
+Elements are separated by commas
+
+Order does not matter
+
+Duplicates are ignored
+
+Example:
+A set of natural numbers:
+
+A = {0, 1, 3, 6, 9}
+
+Here:
+
+0 ∈ A (0 is an element of A)
+
+2 ∉ A (2 is not in A)
 
 
 
