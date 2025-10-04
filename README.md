@@ -612,3 +612,104 @@ The shaded area outside the circle A represents A′.
 - Venn diagrams help visualize set relationships.  
 - Shaded regions correspond to results of set operations.  
 - They are commonly used in logic, statistics, and probability to simplify reasoning about groups.
+
+---
+
+### 🎯 Venn Diagrams (Markdown-Friendly Visuals)
+
+---
+
+#### 1. Single Set A within Universal Set U
+
++---------------------------+
+|           **U**           |
+|                           |
+|         ┌─────────┐       |
+|         │    A    │       |
+|         │ {1,2,3} │       |
+|         └─────────┘       |
+|                           |
++---------------------------+
+
+---
+
+#### 2. Union of Two Sets  (A ∪ B)
+
+            _________
+           /         \
+          /    A      \
+         /   ●●●●●●●   \
+        (●●●●●●●●●●●●●●)
+         \   ●●●●●●●   /
+          \     B     /
+           \_________/
+
+**Meaning:** All shaded (●) regions = elements in **A** or **B** or both.
+
+---
+
+#### 3. Intersection of Two Sets  (A ∩ B)
+
+            _________
+           /         \
+          /    A      \
+         /     ●●●     \
+        (      ●●●      )
+         \     ●●●     /
+          \     B     /
+           \_________/
+
+**Meaning:** The overlapping (●) area = elements common to both sets.
+
+---
+
+#### 4. Difference of Sets  (A − B)
+
+            _________
+           /         \
+          /  ●●●●●A   \
+         /  ●●●●●     \
+        (             )
+         \     B      /
+          \_________/
+
+**Meaning:** Shaded (●) area = elements in **A** but **not** in **B**.
+
+---
+
+#### 5. Symmetric Difference  (A △ B)
+
+            _________
+           /         \
+          / ●●●A     \
+         / ●●       ●●\
+        (●●         ●●)
+         \ ●●       ●●/
+          \     B ●● /
+           \_________/
+
+**Meaning:** Shaded areas on both sides (non-overlapping) = elements in **A or B**, but not in both.
+
+---
+
+#### 6. Three-Set Venn Diagram (A, B, C)
+
+                _________
+               /         \
+              /    A      \
+      ________/           \________
+     /       \             /       \
+    /    B    \___________/    C    \
+    \         /           \         /
+     \_______/             \_______/
+
+- Center overlap → **A ∩ B ∩ C**  
+- Pairwise overlaps → **A ∩ B**, **B ∩ C**, **A ∩ C**  
+- Outer regions → unique elements of each set
+
+---
+
+💡 **Tip:**  
+For real GitHub markdown, use these ASCII diagrams as teaching aids —  
+they render consistently and are readable in plain text without images.
+
