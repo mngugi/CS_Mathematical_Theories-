@@ -1,7 +1,54 @@
-### Definition of an Even Integer
+Definition of an Even Integer
 
-- An integer n is even if and only if there exists an integer k such that
+An integer n is even if and only if there exists an integer k such that
 
-  n = 2k
+n = 2k
 
-- This means that n is divisible by 2, and its remainder upon division by 2 is 0.
+This means that n is divisible by 2, and its remainder upon division by 2 is 0.
+
+About the integer k in the equation n = 2k
+
+Definition / immediate fact
+
+If n = 2k and n is an integer, then k = n / 2.
+
+The requirement “there exists an integer k” means exactly that n / 2 must be an integer.
+
+What k can be
+
+k may be positive, zero, or negative.
+
+k is unique for a given n: if 2k = 2k' then 2(k - k') = 0 so k - k' = 0 and k = k'.
+
+Parity consequences (how properties of k affect n)
+
+If k is even, say k = 2m, then n = 2(2m) = 4m. So n is divisible by 4.
+
+If k is odd, say k = 2m + 1, then n = 2(2m + 1) = 4m + 2. So n ≡ 2 (mod 4).
+
+How k is used in proofs
+
+Sum of two even integers: if n = 2k and m = 2ℓ then
+
+n + m = 2k + 2ℓ = 2(k + ℓ)
+
+so the sum is even because k + ℓ is an integer.
+
+Multiples: n = 2k shows n is a multiple of 2; more generally, if k is a multiple of t then n is a multiple of 2t.
+
+Examples
+
+n = 8
+Then k = 8 / 2 = 4.
+Check: 8 = 2 * 4.
+
+n = 0
+Then k = 0.
+Check: 0 = 2 * 0.
+
+n = -6
+Then k = -6 / 2 = -3.
+Check: -6 = 2 * (-3).
+
+Pick k = 3
+Then n = 2 * 3 = 6 (so 6 is even; because k is odd, 6 ≡ 2 (mod 4)).
