@@ -171,4 +171,10 @@ Here:
 - 4 ∉ A  (4 is outside the circle)  
 ---
 
+Set Membership
+
+- Set membership is the relationship that shows whether an element belongs to a set or not.
+
+- Let A be a set and x an element.
+- If x is one of the elements contained in A, we say x is a member of A, written as:
 
