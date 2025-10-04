@@ -1,0 +1,93 @@
+# Even and Odd Integers
+
+---
+
+# Definition of an Even Integer
+
+An integer n is even if there exists an integer k such that
+
+n = 2k
+
+This means n is divisible by 2, with remainder 0.
+
+# About the integer k in n = 2k
+
+- If n = 2k and n is an integer, then k = n / 2.
+- k may be positive, zero, or negative.
+- k is unique: if 2k = 2k' then k = k'.
+
+# Parity consequences
+
+- If k is even (k = 2m), then n = 4m.
+- If k is odd (k = 2m + 1), then n = 4m + 2.
+
+# How k is used in proofs
+
+- Sum of two even numbers:
+  If n = 2k and m = 2l, then
+  n + m = 2(k + l)  --> sum is even.
+
+- Multiples:
+  n = 2k is a multiple of 2.
+  If k is a multiple of t, then n is a multiple of 2t.
+
+# Examples
+
+- n = 8 --> k = 4 --> 8 = 2 * 4
+- n = 0 --> k = 0 --> 0 = 2 * 0
+- n = -6 --> k = -3 --> -6 = 2 * (-3)
+- Pick k = 3 --> n = 6 --> 6 is even; 6 ≡ 2 mod 4
+
+# Proof: Sum of Two Even Numbers is Even
+
+- Let n1 = 2k1, n2 = 2k2
+- Add: n1 + n2 = 2k1 + 2k2
+- Factor: n1 + n2 = 2(k1 + k2)
+- Let k3 = k1 + k2
+- Then: n1 + n2 = 2k3 --> sum is even
+
+---
+
+# Definition of an Odd Integer
+
+An integer n is odd if there exists an integer k such that
+
+n = 2k + 1
+
+This means n is not divisible by 2; remainder is 1.
+
+# About the integer k in n = 2k + 1
+
+- If n = 2k + 1 and n is an integer, then k = (n - 1) / 2.
+- k may be positive, zero, or negative.
+- k is unique: if 2k + 1 = 2k' + 1 then k = k'.
+
+# Parity consequences
+
+- If k is even (k = 2m), then n = 2*2m + 1 = 4m + 1.
+- If k is odd (k = 2m + 1), then n = 2* (2m + 1) + 1 = 4m + 3.
+
+# How k is used in proofs
+
+- Sum of two odd numbers:
+  If n = 2k + 1 and m = 2l + 1, then
+  n + m = 2k + 1 + 2l + 1 = 2(k + l + 1) --> sum is even.
+
+- Sum of an odd and an even number:
+  If n = 2k + 1 (odd) and m = 2l (even), then
+  n + m = 2k + 1 + 2l = 2(k + l) + 1 --> sum is odd.
+
+# Examples
+
+- n = 7 --> k = 3 --> 7 = 2 * 3 + 1
+- n = 1 --> k = 0 --> 1 = 2 * 0 + 1
+- n = -5 --> k = -3 --> -5 = 2 * (-3) + 1
+- Pick k = 4 --> n = 9 --> 9 is odd
+
+# Proof: Sum of Two Odd Numbers is Even
+
+- Let n1 = 2k1 + 1, n2 = 2k2 + 1
+- Add: n1 + n2 = 2k1 + 1 + 2k2 + 1
+- Simplify: n1 + n2 = 2(k1 + k2 + 1)
+- Let k3 = k1 + k2 + 1
+- Then: n1 + n2 = 2k3 --> sum is even
