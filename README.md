@@ -414,3 +414,98 @@ B = {2, 4, 6, 8, 10}
 - Useful for mathematical proofs, functions, and defining domains precisely.
 
 ---
+### Combining Sets
+
+Combining sets means forming new sets from two or more existing sets using specific operations.  
+The main set operations are **union**, **intersection**, **difference**, and **complement**.
+
+---
+
+### 1. Union of Sets (A ∪ B)
+
+The **union** of two sets A and B is the set of all elements that are in A, or in B, or in both.
+
+Notation:  
+A ∪ B = {x | x ∈ A or x ∈ B}
+
+Example:  
+A = {1, 2, 3, 4}  
+B = {3, 4, 5, 6}  
+A ∪ B = {1, 2, 3, 4, 5, 6}
+
+---
+
+### 2. Intersection of Sets (A ∩ B)
+
+The **intersection** of two sets A and B is the set of all elements that are common to both A and B.
+
+Notation:  
+A ∩ B = {x | x ∈ A and x ∈ B}
+
+Example:  
+A = {1, 2, 3, 4}  
+B = {3, 4, 5, 6}  
+A ∩ B = {3, 4}
+
+---
+
+### 3. Difference of Sets (A − B)
+
+The **difference** of two sets A and B (also written A \ B) is the set of all elements that are in A but not in B.
+
+Notation:  
+A − B = {x | x ∈ A and x ∉ B}
+
+Example:  
+A = {1, 2, 3, 4}  
+B = {3, 4, 5, 6}  
+A − B = {1, 2}
+
+---
+
+### 4. Complement of a Set (A′)
+
+The **complement** of a set A (relative to a universal set U) is the set of all elements in U that are not in A.
+
+Notation:  
+A′ = {x | x ∈ U and x ∉ A}
+
+Example:  
+U = {1, 2, 3, 4, 5, 6}  
+A = {1, 3, 5}  
+A′ = {2, 4, 6}
+
+---
+
+### 5. Symmetric Difference (A △ B)
+
+The **symmetric difference** of two sets is the set of elements that are in either of the sets but not in both.
+
+Notation:  
+A △ B = (A − B) ∪ (B − A)
+
+Example:  
+A = {1, 2, 3}  
+B = {3, 4, 5}  
+A △ B = {1, 2, 4, 5}
+
+---
+
+### Visual Intuition (Venn Diagram Idea)
+
+- **Union** → everything covered by both circles.  
+- **Intersection** → only the overlapping region.  
+- **Difference** → part of one circle excluding the overlap.  
+- **Complement** → everything outside a given set.
+
+---
+
+### Important Notes
+
+- All these operations follow **set laws** (like commutative and distributive laws).  
+- For finite sets, results can be listed directly.  
+- For infinite sets, operations are described symbolically.  
+- Combining sets is a foundation for logic, probability, and database operations.
+
+---
+
