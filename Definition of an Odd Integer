@@ -1,0 +1,45 @@
+# Definition of an Odd Integer
+
+An integer n is odd if there exists an integer k such that
+
+n = 2k + 1
+
+This means n is not divisible by 2; it leaves a remainder of 1.
+
+# About the integer k in n = 2k + 1
+
+- If n = 2k + 1 and n is an integer, then k = (n - 1) / 2.
+- k may be positive, zero, or negative.
+- k is unique: if 2k + 1 = 2k' + 1 then k = k'.
+
+# Parity consequences
+
+- If k is even (k = 2m), then n = 2*(2m) + 1 = 4m + 1.
+- If k is odd (k = 2m + 1), then n = 2*(2m + 1) + 1 = 4m + 3.
+
+# How k is used in proofs
+
+- Sum of two odd numbers:
+  If n = 2k + 1 and m = 2l + 1, then
+  n + m = 2k + 1 + 2l + 1 = 2(k + l + 1) --> sum is even.
+
+- Sum of an odd and an even number:
+  If n = 2k + 1 (odd) and m = 2l (even), then
+  n + m = 2k + 1 + 2l = 2(k + l) + 1 --> sum is odd.
+
+# Examples
+
+- n = 7 --> k = 3 --> 7 = 2 * 3 + 1
+- n = 1 --> k = 0 --> 1 = 2 * 0 + 1
+- n = -5 --> k = -3 --> -5 = 2 * (-3) + 1
+- Pick k = 4 --> n = 2 * 4 + 1 = 9 --> 9 is odd
+
+# Proof: Sum of Two Odd Numbers is Even
+
+- Let n1 = 2k1 + 1, n2 = 2k2 + 1
+- Add: n1 + n2 = 2k1 + 1 + 2k2 + 1
+- Simplify: n1 + n2 = 2(k1 + k2 + 1)
+- Let k3 = k1 + k2 + 1
+- Then: n1 + n2 = 2k3 --> sum is even
+
+---
