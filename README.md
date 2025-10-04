@@ -336,3 +336,81 @@ it’s as large as the set of real pairs (ℝ × ℝ).
   {z ∈ ℂ | |z| = 1} → the set of all complex numbers on the **unit circle**.  
 - Infinite complex sets have applications in advanced topics such as Fourier analysis, quantum mechanics, and fractals.
 
+---
+
+### Set Builder Notation
+
+**Set builder notation** is a concise way of describing a set by stating the properties that its members must satisfy.  
+It is written in the form:
+
+{ x | condition on x }
+
+which reads as “the set of all x such that the condition on x holds.”
+
+---
+
+### Basic Examples
+
+1. **Finite Set Example**  
+   A = {x | x is an integer and 1 ≤ x ≤ 5}  
+   This means A = {1, 2, 3, 4, 5}.
+
+2. **Even Numbers**  
+   E = {x | x is an even number}  
+   This can also be written as E = {x | x = 2n, n ∈ ℤ}.
+
+3. **Multiples of 3**  
+   M = {x | x = 3n, n ∈ ℕ}  
+   This represents all positive multiples of 3.
+
+---
+
+### Set Builder with Complex Numbers
+
+For complex numbers:
+
+C = {z | z = a + bi, a, b ∈ ℝ}
+
+This defines the set of all complex numbers, where “a” and “b” are real numbers.
+
+Example of a restricted complex set:  
+S = {z ∈ ℂ | |z| = 1}  
+This means “the set of all complex numbers z such that the magnitude of z equals 1.”
+
+---
+
+### Set Builder for Geometric Shapes
+
+1. **Real Interval**  
+   A = {x ∈ ℝ | 0 < x ≤ 10}  
+   The set of real numbers greater than 0 and up to 10.
+
+2. **Circle in Complex Plane**  
+   C = {z ∈ ℂ | |z − 2| = 3}  
+   All complex numbers whose distance from 2 (on the real axis) is 3.
+
+3. **Region Inside a Circle**  
+   R = {z ∈ ℂ | |z| < 1}  
+   The set of all complex numbers inside the unit circle.
+
+---
+
+### Nested Sets Example
+
+Let  
+A = {x | x ∈ ℕ and x ≤ 10}  
+B = {x | x ∈ A and x is even}
+
+Then  
+B = {2, 4, 6, 8, 10}
+
+---
+
+### Important Notes
+
+- “|” or “:” means “such that”.  
+- Always specify the **domain** (e.g., x ∈ ℝ or x ∈ ℕ).  
+- Set builder notation helps describe infinite or complex sets compactly.  
+- Useful for mathematical proofs, functions, and defining domains precisely.
+
+---
