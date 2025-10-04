@@ -252,4 +252,87 @@ Examples:
 - Infinity is a concept used in mathematics to represent limitless growth or size.
 
 ---
+### Complex Sets
+
+A **complex set** is a set that contains complex numbers as its elements.  
+A **complex number** is any number that can be written in the form:
+
+z = a + bi  
+
+where:  
+- a is the **real part**  
+- b is the **imaginary part**  
+- i is the **imaginary unit**, defined by i² = -1  
+
+---
+
+### Example of a Complex Set
+
+Let  
+C = {2 + 3i, 4 - i, -1 + 2i, 0 + i}
+
+Here,  
+Re(C) = {2, 4, -1, 0} → the set of real parts  
+Im(C) = {3, -1, 2, 1} → the set of imaginary parts  
+
+---
+
+### Set Representation on the Complex Plane
+
+Each complex number can be represented as a **point** on the **complex plane**,  
+where:  
+- The x-axis represents the real part (Re).  
+- The y-axis represents the imaginary part (Im).
+
+Example visualization (conceptually):  
+(2, 3) → represents 2 + 3i  
+(4, -1) → represents 4 - i  
+
+So the set C can be visualized as a group of points on the plane.
+
+---
+
+### Operations on Complex Sets
+
+1. **Union (C₁ ∪ C₂)**  
+   Combines all unique complex numbers from both sets.
+
+   Example:  
+   C₁ = {1 + i, 2 + 2i}  
+   C₂ = {2 + 2i, 3 + 3i}  
+   C₁ ∪ C₂ = {1 + i, 2 + 2i, 3 + 3i}
+
+2. **Intersection (C₁ ∩ C₂)**  
+   Contains only complex numbers common to both sets.
+
+   Example:  
+   C₁ ∩ C₂ = {2 + 2i}
+
+3. **Difference (C₁ − C₂)**  
+   Contains complex numbers that belong to C₁ but not C₂.
+
+   Example:  
+   C₁ − C₂ = {1 + i}
+
+---
+
+### Infinite Complex Sets
+
+Just like real numbers, complex numbers form an **infinite set**.  
+The set of all complex numbers is denoted by:
+
+ℂ = {a + bi | a, b ∈ ℝ}
+
+Since both a and b can take any real value, ℂ is **uncountably infinite** —  
+it’s as large as the set of real pairs (ℝ × ℝ).
+
+---
+
+### Important Notes
+
+- Every real number is also a complex number (with b = 0).  
+- Complex sets can describe geometric shapes (like circles or lines) in the complex plane.  
+  Example:  
+  {z ∈ ℂ | |z| = 1} → the set of all complex numbers on the **unit circle**.  
+- Infinite complex sets have applications in advanced topics such as Fourier analysis, quantum mechanics, and fractals.
 
