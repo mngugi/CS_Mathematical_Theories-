@@ -509,3 +509,106 @@ A △ B = {1, 2, 4, 5}
 
 ---
 
+### Venn Diagrams
+
+A **Venn Diagram** is a visual representation of sets and their relationships using overlapping circles.  
+Each circle represents a set, and the regions where circles overlap show the relationships between the sets.
+
+---
+
+### 1. Single Set
+
+For one set A inside a universal set U:
+
+U = {1, 2, 3, 4, 5, 6, 7, 8}  
+A = {2, 4, 6, 8}
+
+Visual idea:  
+A single circle (A) inside a rectangle (U).  
+The shaded part inside the circle shows elements belonging to A.
+
+---
+
+### 2. Two Sets
+
+Let:  
+A = {1, 2, 3, 4}  
+B = {3, 4, 5, 6}
+
+#### Union (A ∪ B)
+Elements in A or B or both.  
+Shaded: both circles together.  
+Result: {1, 2, 3, 4, 5, 6}
+
+#### Intersection (A ∩ B)
+Elements common to both A and B.  
+Shaded: only the overlapping part.  
+Result: {3, 4}
+
+#### Difference (A − B)
+Elements in A but not in B.  
+Shaded: part of A’s circle not touching B.  
+Result: {1, 2}
+
+#### Symmetric Difference (A △ B)
+Elements in A or B, but not in both.  
+Shaded: both non-overlapping parts.  
+Result: {1, 2, 5, 6}
+
+---
+
+### 3. Three Sets
+
+Let sets A, B, and C overlap.  
+Each circle represents one set.
+
+#### Common Region
+The central overlapping region (A ∩ B ∩ C) represents elements common to all three.
+
+#### Example
+A = {1, 2, 3, 4, 5}  
+B = {4, 5, 6, 7}  
+C = {5, 7, 8, 9}
+
+- A ∩ B = {4, 5}  
+- A ∩ C = {5}  
+- B ∩ C = {5, 7}  
+- A ∩ B ∩ C = {5}
+
+---
+
+### 4. Complement in Venn Diagram
+
+Let U be the universal set.  
+If A ⊆ U, then the **complement A′** includes everything outside circle A.
+
+Example:  
+U = {1, 2, 3, 4, 5, 6}  
+A = {2, 4, 6}  
+Then A′ = {1, 3, 5}
+
+The shaded area outside the circle A represents A′.
+
+---
+
+### 5. Rules and Properties
+
+1. **Commutative Laws**  
+   A ∪ B = B ∪ A  
+   A ∩ B = B ∩ A  
+
+2. **Distributive Laws**  
+   A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)  
+   A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)  
+
+3. **De Morgan’s Laws**  
+   (A ∪ B)′ = A′ ∩ B′  
+   (A ∩ B)′ = A′ ∪ B′  
+
+---
+
+### Important Notes
+
+- Venn diagrams help visualize set relationships.  
+- Shaded regions correspond to results of set operations.  
+- They are commonly used in logic, statistics, and probability to simplify reasoning about groups.
