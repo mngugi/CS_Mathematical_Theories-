@@ -1,0 +1,69 @@
+# Even & Odd Number Operations
+
+---
+
+# Multiplication
+
+- **Even × Even:**  
+  If n = 2k and m = 2l, then  
+  n * m = (2k) * (2l) = 4 * (k * l) --> even
+
+- **Even × Odd:**  
+  If n = 2k (even) and m = 2l + 1 (odd), then  
+  n * m = 2k * (2l + 1) = 2 * (k * (2l + 1)) --> even
+
+- **Odd × Odd:**  
+  If n = 2k + 1 and m = 2l + 1, then  
+  n * m = (2k + 1) * (2l + 1) = 4kl + 2k + 2l + 1 = 2(2kl + k + l) + 1 --> odd
+
+---
+
+# Subtraction
+
+- **Even − Even:**  
+  n = 2k, m = 2l → n − m = 2k − 2l = 2(k − l) --> even
+
+- **Odd − Odd:**  
+  n = 2k + 1, m = 2l + 1 → n − m = 2(k − l) --> even
+
+- **Even − Odd:**  
+  n = 2k, m = 2l + 1 → n − m = 2k − (2l + 1) = 2(k − l) − 1 --> odd
+
+- **Odd − Even:**  
+  n = 2k + 1, m = 2l → n − m = 2k + 1 − 2l = 2(k − l) + 1 --> odd
+
+---
+
+# Modulo Properties
+
+- **Even numbers modulo 2:** n = 2k → n % 2 = 0  
+- **Odd numbers modulo 2:** n = 2k + 1 → n % 2 = 1
+
+- **Even numbers modulo 4:**  
+  - k even → n = 4m → n % 4 = 0  
+  - k odd → n = 4m + 2 → n % 4 = 2
+
+- **Odd numbers modulo 4:**  
+  - k even → n = 4m + 1 → n % 4 = 1  
+  - k odd → n = 4m + 3 → n % 4 = 3
+
+---
+
+# Examples
+
+- Multiplication:  
+  - 4 × 6 = 24 → even × even = even  
+  - 4 × 5 = 20 → even × odd = even  
+  - 3 × 5 = 15 → odd × odd = odd
+
+- Subtraction:  
+  - 8 − 4 = 4 → even − even = even  
+  - 7 − 5 = 2 → odd − odd = even  
+  - 8 − 5 = 3 → even − odd = odd  
+  - 7 − 4 = 3 → odd − even = odd
+
+- Modulo:  
+  - 8 % 2 = 0 → even  
+  - 7 % 2 = 1 → odd  
+  - 6 % 4 = 2 → even (k odd)  
+  - 9 % 4 = 1 → odd (k even)
