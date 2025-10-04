@@ -7,7 +7,6 @@ n = 2k
 This means that n is divisible by 2, and its remainder upon division by 2 is 0.
 
 About the integer k in the equation n = 2k
-
 Definition / immediate fact
 
 If n = 2k and n is an integer, then k = n / 2.
@@ -28,27 +27,55 @@ If k is odd, say k = 2m + 1, then n = 2(2m + 1) = 4m + 2. So n ≡ 2 (mod 4).
 
 How k is used in proofs
 
-Sum of two even integers: if n = 2k and m = 2ℓ then
+Sum of two even integers:
+If n = 2k and m = 2ℓ then
 
 n + m = 2k + 2ℓ = 2(k + ℓ)
 
 so the sum is even because k + ℓ is an integer.
 
-Multiples: n = 2k shows n is a multiple of 2; more generally, if k is a multiple of t then n is a multiple of 2t.
+Multiples:
+n = 2k shows n is a multiple of 2; more generally, if k is a multiple of t then n is a multiple of 2t.
 
 Examples
 
 n = 8
-Then k = 8 / 2 = 4.
-Check: 8 = 2 * 4.
+k = 8 / 2 = 4
+Check: 8 = 2 * 4
 
 n = 0
-Then k = 0.
-Check: 0 = 2 * 0.
+k = 0
+Check: 0 = 2 * 0
 
 n = -6
-Then k = -6 / 2 = -3.
-Check: -6 = 2 * (-3).
+k = -6 / 2 = -3
+Check: -6 = 2 * (-3)
 
 Pick k = 3
-Then n = 2 * 3 = 6 (so 6 is even; because k is odd, 6 ≡ 2 (mod 4)).
+n = 2 * 3 = 6 (so 6 is even; because k is odd, 6 ≡ 2 (mod 4))
+
+Proof Idea: Why the sum of two even numbers is even
+
+Let’s take two even integers, n1 and n2. By definition:
+
+n1 = 2k1 for some integer k1
+
+n2 = 2k2 for some integer k2
+
+Step 1: Add them
+
+n1 + n2 = 2k1 + 2k2
+
+Step 2: Factor out 2
+
+n1 + n2 = 2(k1 + k2)
+
+Step 3: Reason about the parentheses
+
+Since k1 + k2 is an integer (sum of integers is always an integer), let’s call it k3 = k1 + k2.
+
+n1 + n2 = 2k3
+
+Conclusion
+
+n1 + n2 is even because it is 2 times some integer k3. ✅
