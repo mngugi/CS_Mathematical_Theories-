@@ -1,81 +1,172 @@
-Definition of an Even Integer
+📘 Definition of an Even Integer
 
-An integer n is even if and only if there exists an integer k such that
+An integer n is considered even if and only if there exists an integer k such that:
 
-n = 2k
+n=2k
+n=2k
 
-This means that n is divisible by 2, and its remainder upon division by 2 is 0.
+This implies that n is divisible by 2, and its remainder upon division by 2 is zero.
 
-About the integer k in the equation n = 2k
-Definition / immediate fact
+🔍 Understanding the Integer k in the Equation n = 2k
+✅ Immediate Fact
 
-If n = 2k and n is an integer, then k = n / 2.
+If n = 2k and n is an integer, then:
 
-The requirement “there exists an integer k” means exactly that n / 2 must be an integer.
+k=n2
+k=
+2
+n
+	​
 
-What k can be
+
+The requirement "there exists an integer k" means exactly that n / 2 must be an integer.
+
+🔢 Possible Values of k
 
 k may be positive, zero, or negative.
 
-k is unique for a given n: if 2k = 2k' then 2(k - k') = 0 so k - k' = 0 and k = k'.
+k is unique for a given n: if 2k = 2k', then 2(k - k') = 0, so k - k' = 0 and k = k'.
 
-Parity consequences (how properties of k affect n)
+🔄 Parity Consequences (How Properties of k Affect n)
 
-If k is even, say k = 2m, then n = 2(2m) = 4m. So n is divisible by 4.
+If k is even, say k = 2m, then:
 
-If k is odd, say k = 2m + 1, then n = 2(2m + 1) = 4m + 2. So n ≡ 2 (mod 4).
+n=2(2m)=4m
+n=2(2m)=4m
 
-How k is used in proofs
+So, n is divisible by 4.
 
-Sum of two even integers:
-If n = 2k and m = 2ℓ then
+If k is odd, say k = 2m + 1, then:
 
-n + m = 2k + 2ℓ = 2(k + ℓ)
+n=2(2m+1)=4m+2
+n=2(2m+1)=4m+2
 
-so the sum is even because k + ℓ is an integer.
+So, n ≡ 2 (mod 4).
 
-Multiples:
-n = 2k shows n is a multiple of 2; more generally, if k is a multiple of t then n is a multiple of 2t.
+🧩 Applications of k in Mathematical Proofs
+➕ Sum of Two Even Integers
 
-Examples
+Let n = 2k and m = 2ℓ. Then:
+
+n+m=2k+2ℓ=2(k+ℓ)
+n+m=2k+2ℓ=2(k+ℓ)
+
+Thus, the sum is even because k + ℓ is an integer.
+
+🔢 Multiples
+
+Since n = 2k, n is a multiple of 2. More generally, if k is a multiple of t, then n is a multiple of 2t.
+
+🧪 Examples
 
 n = 8
-k = 8 / 2 = 4
+
+Then:
+
+k=82=4
+k=
+2
+8
+	​
+
+=4
+
 Check: 8 = 2 * 4
 
 n = 0
-k = 0
+
+Then:
+
+k=0
+k=0
+
 Check: 0 = 2 * 0
 
 n = -6
-k = -6 / 2 = -3
+
+Then:
+
+k=−62=−3
+k=
+2
+−6
+	​
+
+=−3
+
 Check: -6 = 2 * (-3)
 
 Pick k = 3
-n = 2 * 3 = 6 (so 6 is even; because k is odd, 6 ≡ 2 (mod 4))
 
-Proof Idea: Why the sum of two even numbers is even
+Then:
 
-Let’s take two even integers, n1 and n2. By definition:
+n=2∗3=6
+n=2∗3=6
 
-n1 = 2k1 for some integer k1
+Since k is odd, n ≡ 2 (mod 4).
 
-n2 = 2k2 for some integer k2
+📘 Proof Idea: Why the Sum of Two Even Numbers is Even
 
-Step 1: Add them
+Let’s take two even integers, n₁ and n₂. By definition:
 
-n1 + n2 = 2k1 + 2k2
+n₁ = 2k₁ for some integer k₁
 
-Step 2: Factor out 2
+n₂ = 2k₂ for some integer k₂
 
-n1 + n2 = 2(k1 + k2)
+Step 1: Add Them
+n1+n2=2k1+2k2
+n
+1
+	​
 
-Step 3: Reason about the parentheses
++n
+2
+	​
 
-Since k1 + k2 is an integer (sum of integers is always an integer), let’s call it k3 = k1 + k2.
+=2k
+1
+	​
 
-n1 + n2 = 2k3
++2k
+2
+	​
 
-Conclusion
+Step 2: Factor Out 2
+n1+n2=2(k1+k2)
+n
+1
+	​
 
-n1 + n2 is even because it is 2 times some integer k3. ✅
++n
+2
+	​
+
+=2(k
+1
+	​
+
++k
+2
+	​
+
+)
+Step 3: Reason About the Parentheses
+
+Since k₁ + k₂ is an integer (the sum of integers is always an integer), let’s call it k₃ = k₁ + k₂.
+
+n1+n2=2k3
+n
+1
+	​
+
++n
+2
+	​
+
+=2k
+3
+	​
+
+✅ Conclusion
+
+n₁ + n₂ is even because it is 2 times some integer k₃.
