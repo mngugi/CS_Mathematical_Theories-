@@ -178,3 +178,78 @@ Set Membership
 - Let A be a set and x an element.
 - If x is one of the elements contained in A, we say x is a member of A, written as:
 
+---
+### Sets and Infinities
+
+A **set** is a well-defined collection of distinct objects. These objects are called **elements** or **members** of the set.
+
+Example:  
+A = {1, 2, 3, 4, 5}
+
+Here, 1 ∈ A means 1 is an element of A.  
+6 ∉ A means 6 is not an element of A.
+
+---
+
+### Finite and Infinite Sets
+
+A set is **finite** if it has a definite number of elements.  
+Example:  
+B = {2, 4, 6, 8, 10}  
+The number of elements in B is 5, so B is finite.
+
+A set is **infinite** if it has an endless number of elements.  
+Example:  
+N = {1, 2, 3, 4, 5, 6, 7, …}  
+The ellipsis (…) means the set continues forever without an end.
+
+---
+
+### Types of Infinite Sets
+
+1. **Countably Infinite Sets**  
+   A set is countably infinite if its elements can be matched one-to-one with the natural numbers.  
+   Example:  
+   N = {1, 2, 3, 4, …}  
+   Z = {…, -3, -2, -1, 0, 1, 2, 3, …}  
+   Both can be counted even though they are infinite.
+
+2. **Uncountably Infinite Sets**  
+   A set is uncountably infinite if its elements cannot be listed or paired with natural numbers.  
+   Example:  
+   R = {x | x is a real number}  
+   Between any two real numbers, there are infinitely many more real numbers.
+
+---
+
+### Visual Intuition
+
+Finite set → ends  
+Infinite set → never ends  
+
+Think of counting:  
+You can count 1, 2, 3, 4, 5 — that’s finite.  
+But try counting all numbers forever — that’s infinite.
+
+---
+
+### Infinity (∞)
+
+Infinity (∞) is not a number but a concept meaning “without end.”  
+It represents a quantity larger than any finite number.
+
+Examples:  
+- The number of points on a line = ∞  
+- The number of stars in the universe (approximately infinite)  
+
+---
+
+### Important Notes
+
+- Finite sets can be measured or counted.  
+- Infinite sets cannot be completed by counting.  
+- Some infinite sets are larger than others (for example, real numbers are more numerous than natural numbers).  
+- Infinity is a concept used in mathematics to represent limitless growth or size.
+
+---
+
