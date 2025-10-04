@@ -158,7 +158,7 @@ Notation:
 
 ### Visual Intuition
 
-```markdown
+
 Set A = {1, 2, 3}
 
    ┌─────────────┐
